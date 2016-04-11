@@ -1,2 +1,2 @@
 'use strict';
-module.exports = require('./router-ips.json');
+module.exports = new Set(require('./router-ips.json'));

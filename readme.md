@@ -17,7 +17,7 @@ $ npm install --save router-ips
 ```js
 const routerIps = require('router-ips');
 
-console.log(routerIps.indexOf('192.168.0.1') !== -1);
+console.log(routerIps.has('192.168.0.1'));
 //=> true
 ```
 
