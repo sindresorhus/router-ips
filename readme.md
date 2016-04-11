@@ -22,6 +22,13 @@ console.log(routerIps.has('192.168.0.1'));
 ```
 
 
+## API
+
+### routerIps
+
+Type: `Set`
+
+
 ## License
 
-MIT © [Sindre Sorhus](http://sindresorhus.com)
+MIT © [Sindre Sorhus](https://sindresorhus.com)

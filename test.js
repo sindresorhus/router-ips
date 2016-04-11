@@ -1,7 +1,7 @@
 import test from 'ava';
-import x from './';
+import m from './';
 
 test(t => {
-	t.truthy(x.size);
-	t.true(x.has('10.0.0.1'));
+	t.true(m.size > 0);
+	t.true(m.has('10.0.0.1'));
 });
