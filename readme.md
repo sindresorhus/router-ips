@@ -1,4 +1,4 @@
-# router-ips [![Build Status](https://travis-ci.org/sindresorhus/router-ips.svg?branch=master)](https://travis-ci.org/sindresorhus/router-ips)
+# router-ips
 
 > List of common default router IP addresses
 
