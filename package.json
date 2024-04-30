@@ -4,20 +4,28 @@
 	"description": "List of common default router IP addresses",
 	"license": "MIT",
 	"repository": "sindresorhus/router-ips",
+	"funding": "https://github.com/sponsors/sindresorhus",
 	"author": {
 		"name": "Sindre Sorhus",
 		"email": "sindresorhus@gmail.com",
-		"url": "sindresorhus.com"
+		"url": "https://sindresorhus.com"
+	},
+	"type": "module",
+	"exports": {
+		"types": "./index.d.ts",
+		"default": "./index.js"
 	},
 	"sideEffects": false,
 	"engines": {
-		"node": ">=4"
+		"node": ">=18.20"
 	},
 	"scripts": {
-		"test": "xo && ava"
+		"//test": "xo && ava",
+		"test": "ava"
 	},
 	"files": [
 		"index.js",
+		"index.d.ts",
 		"router-ips.json"
 	],
 	"keywords": [
@@ -34,7 +42,7 @@
 		"default"
 	],
 	"devDependencies": {
-		"ava": "*",
-		"xo": "*"
+		"ava": "^6.1.2",
+		"xo": "^0.58.0"
 	}
 }

@@ -1,2 +1,5 @@
-'use strict';
-module.exports = new Set(require('./router-ips.json'));
+import routerIps_ from './router-ips.json' with {type: 'json'};
+
+const routerIps = new Set(routerIps_);
+
+export default routerIps;

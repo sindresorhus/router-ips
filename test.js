@@ -1,7 +1,7 @@
 import test from 'ava';
-import m from './';
+import routerIps from './index.js';
 
-test(t => {
-	t.true(m.size > 0);
-	t.true(m.has('10.0.0.1'));
+test('main', t => {
+	t.true(routerIps.size > 0);
+	t.true(routerIps.has('10.0.0.1'));
 });
